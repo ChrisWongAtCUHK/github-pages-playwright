@@ -7,7 +7,9 @@ def run(playwright: Playwright) -> None:
     page = context.new_page()
     page.goto("https://chriswongatcuhk.github.io/react-custom-hook/")
     page.get_by_role("button", name="點我加一").click()
-    page.screenshot(path="react-custom-hook.png")
+    page.screenshot(path="react-custom-hook_點我加一.png")
+    page.get_by_role("button", name="點我加十").click()
+    page.screenshot(path="react-custom-hook_點我加十.png")
     page.pause();
     page.close()
 
