@@ -13,3 +13,8 @@ playwright codegen --target python -o example.py "https://chriswongatcuhk.github
 ```
 playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/svelte-vite-app/"
 ```
+
+## [Svelte Tutorial for Beginners](https://github.com/ChrisWongAtCUHK/svelte-tutorial-for-beginners)
+```
+playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/svelte-tutorial-for-beginners/"
+```
