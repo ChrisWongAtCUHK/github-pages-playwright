@@ -18,3 +18,8 @@ playwright codegen --target python -o example.py "https://chriswongatcuhk.github
 ```
 playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/svelte-tutorial-for-beginners/"
 ```
+
+## [7 Event Modifiers in Svelte You Must Know](https://github.com/ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know)
+```
+playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/7-Event-Modifiers-in-Svelte-You-Must-Know/"
+```
