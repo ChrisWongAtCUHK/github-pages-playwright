@@ -27,3 +27,8 @@ def test_deletePoll(page: Page) -> None:
     page.get_by_role("button", name="Add Poll").click()
     page.get_by_role("button", name="Delete").first.click()
     page.get_by_role("button", name="Delete").first.click()
+
+def test_validation(page: Page) -> None:
+    page.goto("https://chriswongatcuhk.github.io/svelte-tutorial-for-beginners/")
+    page.get_by_text("Add New Poll").click()
+    page.get_by_role("button", name="Add Poll").click()
