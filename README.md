@@ -40,3 +40,10 @@ playwright show-trace test-results/chriswongatcuhk-svelte-tutorial-for-beginners
 playwright show-trace test-results/chriswongatcuhk-svelte-tutorial-for-beginners-tests-py-test-deletepoll-chromium/trace.zip
 playwright show-trace test-results/chriswongatcuhk-svelte-tutorial-for-beginners-tests-py-test-validation-chromium/trace.zip
 ```
+
+```
+pytest ChrisWongAtCUHK/react-usecontext-demo/headless.py --tracing on 
+```
+```
+playwright show-trace test-results/chriswongatcuhk-react-usecontext-demo-headless-py-test-usecontext-chromium/trace.zip
+```
