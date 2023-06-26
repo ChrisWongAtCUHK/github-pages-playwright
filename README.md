@@ -23,3 +23,11 @@ playwright codegen --target python -o example.py "https://chriswongatcuhk.github
 ```
 playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/7-Event-Modifiers-in-Svelte-You-Must-Know/"
 ```
+
+# [Trace viewer](https://playwright.dev/python/docs/trace-viewer)
+```
+pytest ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know/preventDefault.py --tracing on 
+```
+```
+playwright show-trace test-results/chriswongatcuhk-7-event-modifiers-in-svelte-you-must-know-preventdefault-py-test-example-chromium/trace.zip
+```

@@ -1,2 +1,4 @@
 example.py
 *.png
+__pycache__
+test-results
