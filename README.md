@@ -31,3 +31,10 @@ pytest ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know/preventDefault.
 ```
 playwright show-trace test-results/chriswongatcuhk-7-event-modifiers-in-svelte-you-must-know-preventdefault-py-test-example-chromium/trace.zip
 ```
+
+```
+pytest ChrisWongAtCUHK/svelte-tutorial-for-beginners/tests.py --tracing on 
+```
+```
+playwright show-trace test-results/chriswongatcuhk-svelte-tutorial-for-beginners-tests-py-test-addpoll-chromium/trace.zip
+```

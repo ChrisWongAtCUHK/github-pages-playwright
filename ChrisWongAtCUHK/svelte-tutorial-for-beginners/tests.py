@@ -1,10 +1,6 @@
-from playwright.sync_api import Playwright, sync_playwright, expect
+from playwright.sync_api import Page, expect
 
-
-def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context()
-    page = context.new_page()
+def test_addPoll(page: Page) -> None:
     page.goto("https://chriswongatcuhk.github.io/svelte-tutorial-for-beginners/")
     page.get_by_text("Add New Poll").click()
     page.get_by_label("Poll Question:").click()
@@ -19,14 +15,4 @@ def run(playwright: Playwright) -> None:
     page.locator("div.answer").nth(1).click()
     page.locator("div.answer").nth(1).click()
     page.locator("div.answer").nth(1).click()
-
-    page.pause()
     page.close()
-
-    # ---------------------
-    context.close()
-    browser.close()
-
-
-with sync_playwright() as playwright:
-    run(playwright)
