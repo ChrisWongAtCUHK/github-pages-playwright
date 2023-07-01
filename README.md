@@ -24,6 +24,17 @@ playwright codegen --target python -o example.py "https://chriswongatcuhk.github
 playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/7-Event-Modifiers-in-Svelte-You-Must-Know/"
 ```
 
+## [Transitions and Animations in Svelte](https://github.com/ChrisWongAtCUHK/transitions-and-animations-in-svelte)
+```
+playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/transitions-and-animations-in-svelte/"
+```
+```
+pytest ChrisWongAtCUHK/transitions-and-animations-in-svelte/tests.py --tracing on --headed --slowmo 1000
+```
+```
+playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-elasticout-chromium/trace.zip
+playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-fade-chromium/trace.zip
+```
 # [Trace viewer](https://playwright.dev/python/docs/trace-viewer)
 ```
 pytest ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know/preventDefault.py --tracing on 
