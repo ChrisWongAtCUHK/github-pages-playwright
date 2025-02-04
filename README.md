@@ -35,6 +35,19 @@ pytest ChrisWongAtCUHK/transitions-and-animations-in-svelte/tests.py --tracing o
 playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-elasticout-chromium/trace.zip
 playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-fade-chromium/trace.zip
 ```
+
+## [primevue-project](https://github.com/ChrisWongAtCUHK/primevue-project)
+```
+playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/primevue-project/"
+```
+```
+pytest ChrisWongAtCUHK/primevue-project/click.py --tracing on --headed --slowmo 1000
+```
+```
+playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-elasticout-chromium/trace.zip
+playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-fade-chromium/trace.zip
+```
+
 # [Trace viewer](https://playwright.dev/python/docs/trace-viewer)
 ```
 pytest ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know/preventDefault.py --tracing on 

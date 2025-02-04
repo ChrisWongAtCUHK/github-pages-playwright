@@ -2,3 +2,4 @@ example.py
 *.png
 __pycache__
 test-results
+.DS_Store
