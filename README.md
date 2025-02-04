@@ -44,8 +44,7 @@ playwright codegen --target python -o example.py "https://chriswongatcuhk.github
 pytest ChrisWongAtCUHK/primevue-project/click.py --tracing on --headed --slowmo 1000
 ```
 ```
-playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-elasticout-chromium/trace.zip
-playwright show-trace test-results/chriswongatcuhk-transitions-and-animations-in-svelte-tests-py-test-fade-chromium/trace.zip
+playwright show-trace test-results/chriswongatcuhk-primevue-project-click-py-test-example-chromium/trace.zip
 ```
 
 # [Trace viewer](https://playwright.dev/python/docs/trace-viewer)
