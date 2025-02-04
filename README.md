@@ -47,6 +47,17 @@ pytest ChrisWongAtCUHK/primevue-project/click.py --tracing on --headed --slowmo 
 playwright show-trace test-results/chriswongatcuhk-primevue-project-click-py-test-example-chromium/trace.zip
 ```
 
+## [ionic-vue-project](https://github.com/ChrisWongAtCUHK/ionic-vue-project)
+```
+playwright codegen --target python -o example.py "https://chriswongatcuhk.github.io/ionic-vue-project"
+```
+```
+pytest ChrisWongAtCUHK/ionic-vue-project/home.py --tracing on --headed --slowmo 1000
+```
+```
+playwright show-trace test-results/chriswongatcuhk-ionic-vue-project-home-py-test-example-chromium/trace.zip
+```
+
 # [Trace viewer](https://playwright.dev/python/docs/trace-viewer)
 ```
 pytest ChrisWongAtCUHK/7-Event-Modifiers-in-Svelte-You-Must-Know/preventDefault.py --tracing on 
